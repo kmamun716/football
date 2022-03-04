@@ -41,7 +41,7 @@ section{
 }
 .fa-bars{
     color: white;
-    display: none;
+    display: none !important;
 }
 .navigation{
     justify-content: space-between;
@@ -144,7 +144,7 @@ footer .social{
         display: none;
     }
     .fa-bars{
-        display: block;
+        display: block !important;
         color: #FFFFFF;
     }
     .banner-section .banner-img img{
