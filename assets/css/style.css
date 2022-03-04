@@ -153,9 +153,20 @@ footer .social{
     .players{
         display: grid;
         grid-template-columns: 100%;
-        column-gap: 50px;
+        row-gap: 24px;
     }
     .highlight{
-        display: none;
+        flex-direction: column;
+    }
+    .highlight .highlight-text{
+        width: 329px;
+    }
+    .highlight-text h2 {
+        font-size: 30px;
+    }
+    .highlight img{
+        width: 328px;
+        margin-top: 29px;
+        padding: 0px 16px;
     }
   }
